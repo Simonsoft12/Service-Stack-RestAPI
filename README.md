@@ -1,3 +1,12 @@
+# How to begin
+
+- Open project.
+- Navigate to ConfigureDb.cs class.
+- Change default connection string 'User Id' and 'Password' (Mysql).
+- Compile & run.
+
+
+
 # web
 
 .NET 6.0 Empty Web Template
