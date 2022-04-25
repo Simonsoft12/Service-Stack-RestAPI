@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <DebugType>portable</DebugType>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToDoApp.ServiceInterface\ToDoApp.ServiceInterface.csproj" />
+    <ProjectReference Include="..\ToDoApp.ServiceModel\ToDoApp.ServiceModel.csproj" />
+
+    <PackageReference Include="NUnit" Version="3.13.*" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.1.*" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.*" />
+    <PackageReference Include="ServiceStack" Version="6.*" />
+    <PackageReference Include="ServiceStack.Kestrel" Version="6.*" />
+    <PackageReference Include="ServiceStack.OrmLite.MySql" Version="6.0.2" />
+    <PackageReference Include="ServiceStack.Server" Version="6.0.2" />
+  </ItemGroup>
+
+</Project>
